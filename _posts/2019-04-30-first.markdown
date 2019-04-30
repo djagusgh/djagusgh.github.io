@@ -3,9 +3,11 @@ layout: post
 title: "First Try"
 date: 2019-04-30 19:10:00
 author : 히알
-categories: Jekyll
+categories: Python
 tags: hello Python
-cover: "/assets/insta.code.png"
+cover: "/assets/instacode.png"
 ---
 
 rrrrrrrrrrrrrrrrrrrrrrrrrrr
+
+
