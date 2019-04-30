@@ -18,7 +18,7 @@ Use the [Liquid][liquid] `{% raw %}{% highlight <language> %}{% endraw %}` tag t
 
 For instance, this template...
 {% highlight html %}
-{% raw %}{% highlight javascript %}    
+{% raw %}{% highlight python %}    
 
 def aaa():
     print("hello world!")
@@ -28,7 +28,7 @@ def aaa():
 
 ...will come out looking like this:
 
-{% highlight javascript %}
+{% highlight python %}
 
 def aaa():
     print("hello world!")
