@@ -4,10 +4,33 @@ title: "First Try"
 date: 2019-04-30 19:10:00
 author : 히알
 categories: Python
-tags: hello Python
+tags: 
 cover: "/assets/instacode.png"
 ---
 
 rrrrrrrrrrrrrrrrrrrrrrrrrrr
 
+### Code Snippets
 
+You can use [highlight.js][highlight] to add syntax highlight code snippets:
+
+Use the [Liquid][liquid] `{% raw %}{% highlight <language> %}{% endraw %}` tag to add syntax highlighting to code snippets.
+
+For instance, this template...
+{% highlight html %}
+{% raw %}{% highlight javascript %}    
+
+def aaa():
+    print("hello world!")
+
+{% endhighlight %}{% endraw %}
+{% endhighlight %}
+
+...will come out looking like this:
+
+{% highlight javascript %}
+
+def aaa():
+    print("hello world!")
+
+{% endhighlight %}
